@@ -1852,6 +1852,20 @@ body {
 .cid-r9oZcnxn6b .mbr-section-text {
   text-align: left;
 }
+.cid-r9wpFlXfDM {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/mbr-2-1920x1280.jpg");
+}
+.cid-r9wq6Y2IWH {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-r9wq6Y2IWH .mbr-text,
+.cid-r9wq6Y2IWH blockquote {
+  color: #767676;
+}
 .cid-r9oYWMVEMM {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1859,6 +1873,45 @@ body {
 }
 .cid-r9oYWMVEMM .mbr-section-subtitle {
   color: #767676;
+}
+.cid-r9wiK5u77x {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-r9wiK5u77x .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-r9wiK5u77x h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-r9wiK5u77x p {
+  color: #767676;
+  text-align: left;
+}
+.cid-r9wiK5u77x .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-r9wiK5u77x .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-r9wiK5u77x .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.cid-r9wjpYgaz0 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/mbr-1920x1281.jpg");
 }
 .cid-r9oYZeRIIR {
   padding-top: 60px;
@@ -1870,38 +1923,7 @@ body {
 }
 .cid-r9oYZeRIIR .counter-container ol {
   margin-bottom: 0;
-  counter-reset: myCounter;
 }
 .cid-r9oYZeRIIR .counter-container ol li {
   margin-bottom: 1rem;
-}
-.cid-r9oYZeRIIR .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-r9oYZeRIIR .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.cid-r9oYXZcxJn {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-r9oYXZcxJn .mbr-text,
-.cid-r9oYXZcxJn blockquote {
-  color: #767676;
 }
