@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.8.6, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.8.6, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <meta name="description" content="Web Site Builder Description">
+  <title>Documentation</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="menu cid-r9oYQYj4F1" once="menu" id="menu2-i">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="https://mobirise.co">SSL Encryption Guide<br></a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-black display-4" href="index.html#features12-6">Overview</a>
+                </li><li class="nav-item"><a class="nav-link link text-black display-4" href="page1.html">Documentation</a></li>
+                <li class="nav-item">
+                    <a class="nav-link link text-black display-4" href="https://mobirise.co">
+                        About Us
+                    </a>
+                </li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobirise.info/k">how to develop own website</a></section><section class="cid-r9xa6YOpWc mbr-fullscreen mbr-parallax-background" id="header2-j">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">DOCUMENTATION</h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">
+                    Secure your end to end communications using a Lets Encrypt SSL Certificate</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-r9xaKDa2JU" id="content4-k">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                    Lets Encrypt SSL</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+                    A guide to deploying a <em>free </em>and trusted SSL certificate on your Node.JS app</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xaTwbM3O" id="content1-l">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p><strong>Lets Encrypt is a free and trusted solution for your SSL needs. </strong>Throughout this guide, I will be covering an easy and quick method of setting up a SSL certificate for your Node.JS server. This guide has been tested to fully work on Ubuntu 16.0 and up servers, as well as on both Heroku and Digital Ocean droplets/dynos.</p><p>Open up the server's terminal
+ and sign in with SSH keys or an username/password if needed.</p><p><span style="font-size: 1rem;">First, make sure you either chmod your user account with sudo access, or run sudo before every command. </span><strong>Make sure you do this or else the certification client will not run.</strong><br></p><p><span style="font-size: 1rem;">Now we need to install some dependencies for LetsEncrypt</span><br></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xaU8ElOW" id="content2-m">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;"><strong>sudo apt-get install bc</strong></span></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xc6ggiB6" id="content1-n">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p>Now we clone the Let's Encrypt repo to the server</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xcjkUi8x" id="content2-o">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;"><strong>sudo apt-get update</strong></span></p><p><span style="font-style: normal;"><strong>sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt</strong></span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xcC8wpPK" id="content1-p">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p>At this point, we will be connecting the SSL certificate to our domain name. <strong>Make sure the DNS settings of the domain are set up to point to your digital ocean droplet.</strong></p><p>The domain should now be pointing to your digital ocean droplet, now we can generate a SSL certificate for use.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xdUQrR9E" id="content2-q">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;"><strong>cd /opt/letsencrypt</strong></span></p><p><span style="font-style: normal;"><strong>./certbot-auto certonly --standalone</strong></span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xebW1BNu" id="content1-r">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p>Follow the instructions presented on the CLI, you will have to provide an admin email address, specify domain names and agree to their Terms and Conditions.</p><p>Once you've finished that, you can now set up autorenewal for the Let's Encrypt SSL Certificate (every 90 days)</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xeOHxByL" id="content2-s">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;"><strong>/opt/letsencrypt/certbot-auto renew</strong></span></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xeV5JxFt" id="content1-t">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p>Now we get <strong>cron</strong> to handle automatic renewal.&nbsp;</p><p>Run this command in the terminal to edit the server's <strong>cron</strong> jobs</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xf3fJ3Jc" id="content2-u">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;"><strong>sudo crontab -e</strong></span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xf8yHbOy" id="content1-v">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p>When the editor opens, add the following lines of code to the end of the file to tell <strong>cron </strong>to run the renewal command every Monday at 1 in the morning</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9xfkPY5Ro" id="content2-w">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;"><strong>00 1 * * 1 /opt/letsencrypt/certbot-auto renew &gt;&gt; /var/log/letsencrypt-renewal.log</strong></span></p><p><span style="font-style: normal;"><strong>30 1 &nbsp;* * 1 /bin/systemctl reload nginx</strong></span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content10 cid-r9xfCMLYuw" id="content10-y">
+    
+     
+
+    <div class="container">
+        <div class="inner-container" style="width: 66%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-white mbr-fonts-style display-5">
+                    Congratulations! You've now added SSL to your Ubuntu Node.JS server, all end to end communication should be encrypted and authenticated.</div>
+            <hr class="line" style="width: 25%;">
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+</body>
+</html>
