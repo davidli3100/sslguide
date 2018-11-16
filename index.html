@@ -55,7 +55,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/d">free site maker</a></section><section class="cid-r9oYRGd7eL mbr-fullscreen mbr-parallax-background" id="header2-1">
+<section class="engine"><a href="https://mobirise.info/c">free web builder</a></section><section class="cid-r9oYRGd7eL mbr-fullscreen mbr-parallax-background" id="header2-1">
 
     
 
@@ -103,7 +103,7 @@
                     </div>                
 
                     <div class="card-box">
-                        <p class="mbr-text mbr-section-text mbr-fonts-style display-7">Secure client server data transactions with a SSL protocol. Stop man-in-the-middle attacks and potential user data leaks. Don't become the next Equifax</p>
+                        <p class="mbr-text mbr-section-text mbr-fonts-style display-7">Secure client server data transactions with a SSL protocol. Stop man-in-the-middle attacks and potential user data leaks. Credit card info, social security numbers, login credentials, all data can be securely transmitted with SSL.&nbsp;</p>
                     </div>
                 </div>
 
@@ -132,6 +132,17 @@
 
                 
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9wyGcD1Gw" id="content1-f">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><strong>Data sent to a server or client will be encrypted </strong>preventing prying eyes from intercepting and potentially using data for malicious purposes. Normal web traffic using the Hyper Text Transfer Protocol (unsecured) will just send packets of data to endpoints without any encryption, this means that any data sent will just be in plain text, even credit card numbers or any other sensitive data. This data is completely vulnerable to eavesdropping and could be hijacked to perform a man-in-the-middle attack. SSL certificates and encryption are essential to maintain user privacy and secure data transfers.</div>
         </div>
     </div>
 </section>
@@ -173,10 +184,9 @@
 
     <div class="container">
         <div class="inner-container" style="width: 100%;">
-            <hr class="line" style="width: 100%;">
-            <div class="section-text align-center mbr-fonts-style display-5">
-                    So How Does It Work?</div>
-            <hr class="line" style="width: 100%;">
+            <hr class="line" style="width: 28%;">
+            <div class="section-text align-center mbr-fonts-style display-5">How Does a SSL Certificate Work? How do I get one on my site?</div>
+            <hr class="line" style="width: 28%;">
         </div>
         </div>
 </section>
@@ -211,6 +221,31 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><strong>The digital signature of the certificate matters </strong>most browsers will have a store of Certificate Authorities that are trusted, this is called a Trusted Root CA store. If your SSL certificate is not signed by a trusted provider of SSL certificates, browsers could still potentially flag your site as insecure and prevent users from accessing the site. Particularly in the latest revisions of Google Chrome where <em>any </em>sites that are still operating on the older and unsecured HTTP protocol are automatically flagged as unsafe and blocked.&nbsp;</div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content9 cid-r9wBKGtdhO" id="content9-g">
+    
+     
+
+    <div class="container">
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 21%;">
+            <div class="section-text align-center mbr-fonts-style display-5">
+                    The SSL Certificate Connection Process</div>
+            <hr class="line" style="width: 21%;">
+        </div>
+        </div>
+</section>
+
+<section class="mbr-section article content1 cid-r9wC3hi6Vs" id="content1-h">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"><p><strong>SSL Certificate Connections are handshake based - </strong>when a web browser tries to create a SSL connection to the server, a SSL handshake is started (usually in asynchronous time). 3 keys are used to set up the connection, public, private and session keys. The public and private keys are used to encrypt and decrypt communications.&nbsp;</p><p>Encrypting and decrypting with the private and public keys uses a lot of processing power and it would be horribly inefficient to run private/public encryptions everytime data is requested. Load balancers would fail to allocate resources for this and it dramatically increases the compute costs. Instead, a session key is created on both the client and server that is used to encrypt all traffic for that session.&nbsp;</p><p><strong>1. The Browser </strong>connects to a web server that uses the HTTPS protocol and SSL. Requesting an identity</p><p><strong>2. Server </strong>then sends a copy of its signed SSL certificate, including the public key</p><p><strong>3. Browser </strong>checks the certificate root against the Trusted CA store, checking to see if there's an expired, unrevoked certificate or for any other potential issues. Should the browser trust the certificate, or the user manually override warnings, then a symmetric session key is created and encyrpted via the public key. This session key is sent to the web server for further use</p><p><strong>4. The Server </strong>then decrypts the session key using its private key, sends back a handshake acknolwedgement that's encrypted with the session key to start a session</p><p><strong>5. Server </strong>and <strong>Browser </strong>then can encrypt all data transmissions with the session key</p></div>
         </div>
     </div>
 </section>
@@ -307,7 +342,7 @@
                 <ol>
                     <li>Secure online credit card payments or other forms of online payments. Encrypted end to end communications make it impossible for third parties to sniff out sensitive data</li>
                     <li>Internal Intranet based applications and network traffic. Sensitive data within internal systems should be protected.&nbsp;</li>
-                    <li>Webmail servers that may contain sensitive information</li>
+                    <li>Webmail servers that may contain sensitive information</li><li>Exchange of files over HTTPS, EDI, or FTP interfaces</li><li>Hosting control panels of sites, preventing man-in-the-middle or spoofing attacks</li>
                 </ol>
             </div>
         </div>
